@@ -20,3 +20,6 @@ RUN npm run build
 
 EXPOSE 8080
 CMD [ "http-server", "dist" ]
+
+# Script Dockerfile obtained from:
+# https://vuejs.org/v2/cookbook/dockerize-vuejs-app.html#Effects-of-Microservices
